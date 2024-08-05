@@ -1,0 +1,3 @@
+# Fichiers à ignorer
+*.log
+__pycache__/
