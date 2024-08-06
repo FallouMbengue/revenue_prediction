@@ -11,6 +11,7 @@ MODEL_PARAMS = {
     "TARGET_NAME": "revenue",
     "MIN_COMPLETION_RATE": 0.80,
     "MIN_PPS":0.01,
+    "TEST_SIZE": 0.2,
     "DEFAULT_FEATURE_NAMES":[
        'location', 'cuisine', 'rating', 'seating capacity',
        'average meal price', 'marketing budget', 'social media followers',
