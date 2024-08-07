@@ -5,7 +5,7 @@ SEED = 50
 
 MODEL_PARAMS = {
     "TRAIN_PATH": "../data/train.csv",
-    "DATA_PATH": "../data/restaurant_data.csv",
+    "PREDICTION_PATH":"../data/prediction.csv",
     "DATA_PREPROCESSED_PATH":"../data/preprocessed.csv",
     "TEST_PATH" : "../data/test.csv",
     "TARGET_NAME": "revenue",
