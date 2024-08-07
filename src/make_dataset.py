@@ -29,3 +29,12 @@ def load_data(dataset_path:str, columns_to_lower: Optional[bool] = False) -> pd.
     
     return data
 
+def date_formatage(df:pd.DataFrame):
+    data = df
+    data["open date"] = pd.to_datetime(data["open date"])
+    data["day"] = data["open date"].dt.day
+    data["day_name"] = data["open date"].dt.day_name()
+    data["month"] = data["open date"].dt.month
+    data["years"] = data["open date"].dt.year
+    data.drop("open date",axis=1,inplace=True)
+    return data

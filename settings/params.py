@@ -10,7 +10,7 @@ MODEL_PARAMS = {
     "TEST_PATH" : "../data/test.csv",
     "TARGET_NAME": "revenue",
     "MIN_COMPLETION_RATE": 0.80,
-    "MIN_PPS":0.01,
+    "MIN_PPS":0,
     "TEST_SIZE": 0.2,
     "DEFAULT_FEATURE_NAMES":[
        'city', 'city group', 'type', 'p1', 'p2', 'p3', 'p4', 'p5', 'p6',
